@@ -1,0 +1,32 @@
+{
+  "name": "estudos-jest",
+  "version": "1.0.0",
+  "description": "Repositório de estudos de testes unitários com Jest, usando um serviço de disparo de e-mails como base.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandabragaa/estudos-jest.git"
+  },
+  "keywords": [],
+  "author": "amandabragaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandabragaa/estudos-jest/issues"
+  },
+  "homepage": "https://github.com/amandabragaa/estudos-jest#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/formbody": "^7.4.0",
+    "aws-sdk": "^2.1360.0",
+    "bull": "^4.10.4",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
